@@ -1041,22 +1041,22 @@ p {
   --btn-white: #FFFFFF;
   --border-white: #FFFFFF;
   --black: #000000;
-  --primary-color-1: #0E59F2;
+  --primary-color-1: #f20e0e;
   --primary-color-2: #F8E559;
-  --primary-color-3: #406AFF;
-  --bg-heading-color: #051634;
-  --text-heading-color: #051634;
+  --primary-color-3: #ff4040;
+  --bg-heading-color: #340505;
+  --text-heading-color: #340505;
   --btn-heading-color: #131313;
   --body-color: #343434;
-  --dark-one: #1C1E22;
-  --dark-two: #222429;
+  --dark-one: #221c1c;
+  --dark-two: #292222;
   --color-1: #F4F7FB;
   --color-2: #737373;
-  --color-3: #0B46BF;
+  --color-3: #bf0b0b;
   --color-4: #CCCCCC;
-  --color-5: #12223e;
+  --color-5: #3e1212;
   --color-6: #864af942;
-  --color-7: #07204D;
+  --color-7: #4d0707;
   --border-color-1: #E7E7E7;
   --border-color-2: #E9E9E8;
   --border-color-3: rgba(19, 19, 19, 0.1);
@@ -3805,7 +3805,7 @@ p {
 .banner__one .banner-shape-7 {
   width: 60px;
   height: 280px;
-  background-color: #4b83f4;
+  background-color: #f44b4b;
   top: 8%;
   right: -1%;
   transform: skew(19deg);
@@ -10514,3 +10514,7 @@ p {
   background-color: var(--color-1);
   height: 100vh;
 }/*# sourceMappingURL=style.css.map */
+
+/*==========================================================================
+* Custom
+==========================================================================*/
