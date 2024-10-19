@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Start Meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Bantec - IT Service & Technology HTML5 Template">
+	<meta name="keywords" content="Creative, Digital, multipage, landing, freelancer template">
+	<meta name="author" content="ThemeOri">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Title of Site -->
+	<title>Red Company - IT Service & Technology</title>
+	<!-- Favicons -->
+	<link rel="icon" type="image/png" href="assets/img/favicon-1.png">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="assets/css/all.css">
+	<!-- Flat Icon CSS -->
+	<link rel="stylesheet" href="assets/webfonts/flat-icon/flaticon_bantec.css">
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- Swiper Bundle CSS -->
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+	<!-- Slick CSS -->
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<!-- Magnific Popup CSS -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<!-- Mean Menu CSS -->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/sass/style.css"> 
+</head>
+
+<body>
+	<!-- Preloader Start -->
+	 <div class="loader">
+		 <span class="loader-container"></span>
+	 </div>
+	<!-- Preloader End -->
+
+	<!-- Header Area Start -->
+	<div class="header__area header__sticky">
+        <div class="container">
+            <div class="header__area-menubar">
+                <div class="header__area-menubar-left">
+                    <div class="header__area-menubar-left-logo">
+                        <a href="index.html"><img class="dark-n" src="assets/img/logo-1.png" alt="image"></a>
+                    </div>
+                </div>
+				<div class="header__area-menubar-center">
+                    <div class="header__area-menubar-center-menu menu-responsive">						
+                        <ul id="mobilemenu">
+                            <li class="">
+								<a href="index.html">Beranda<i class=""></i></a>
+                            </li>                            
+							<li class="menu-item-has-children"><a href="#">Halaman <i class="fas fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+									<li><a href="about.html">Tentang Kami</a></li>
+                                    <li><a href="testimonial.html">Testimonial</a></li>									
+                                    <li><a href="pricing-plan.html">Paket Pembayaran</a></li>								
+                                    <li class=""><a href="team-one.html">Tim<i class=""></i></a> </li>
+                                </ul>
+                            </li>
+							<li class=""><a href="service.html">Layanan <i class=""></i></a> </li>
+                            <li class=""><a href="portfolio-column-two.html">Portfolio <i class=""></i></a> </li>
+							<li class=""><a href="blog-grid-three.html">Blog <i class=""></i></a> </li>
+                            <li class=""><a href="contact.html">Kontak<i class=""></i></a> </li>
+                        </ul>
+                    </div>
+				</div>
+                <div class="header__area-menubar-right">
+                    <div class="header__area-menubar-right-box">
+                        <div class="header__area-menubar-right-box-search">
+							<div class="search">	
+								<span class="header__area-menubar-right-box-search-icon open"><i class="flaticon-loupe"></i></span>
+							</div>
+							<div class="header__area-menubar-right-box-search-box">
+								<form>
+									<input type="search" placeholder="Search Here.....">
+									<button type="submit"><i class="flaticon-loupe"></i>
+									</button>
+								</form> <span class="header__area-menubar-right-box-search-box-icon"><i class="fal fa-times"></i></span>
+							</div>
+						</div>
+                        <div class="header__area-menubar-right-box-sidebar">
+                            <div class="header__area-menubar-right-box-sidebar-popup-icon">
+								<span class="bar-1"></span>
+								<span class="bar-2"></span>
+								<span class="bar-3"></span>
+							</div>
+                        </div>
+						<div class="header__area-menubar-right-box-btn">
+							<a class="btn-one" href="request-quote.html">Get Quote<i class="fas fa-arrow-right"></i></a>
+						</div>
+                        <!-- sidebar Menu Start -->
+                        <div class="header__area-menubar-right-sidebar-popup">
+                            <div class="sidebar-close-btn"><i class="fal fa-times"></i></div>
+                            <div class="header__area-menubar-right-sidebar-popup-logo">
+                                <a href="index.html"> <img src="assets/img/logo-2.png" alt="image"> </a>
+                            </div>
+                            <p>Perusahaan dalam bidang teknologi. Penyedia layanan yang terjangkau.</p>
+							<div class="header__area-menubar-right-sidebar-popup-contact">
+								<h4 class="mb-30">Tetap Terhubung</h4>
+								<div class="header__area-menubar-right-sidebar-popup-contact-item">
+									<div class="header__area-menubar-right-sidebar-popup-contact-item-icon">
+										<i class="fal fa-phone-alt icon-animation"></i>
+									</div>
+									<div class="header__area-menubar-right-sidebar-popup-contact-item-content">
+										<span>Panggil Sekarang</span>
+										<h6><a href="tel:(+62)831-1958-7745">+62 831 1958 7745</a></h6>
+									</div>
+								</div>
+								<div class="header__area-menubar-right-sidebar-popup-contact-item">
+									<div class="header__area-menubar-right-sidebar-popup-contact-item-icon">
+										<i class="fal fa-envelope"></i>
+									</div>
+									<div class="header__area-menubar-right-sidebar-popup-contact-item-content">
+										<span>Email Cepat</span>
+										<h6><a href="mailto:info@redsystem.id">info@redsystem.id</a></h6>
+									</div>
+								</div>
+								<div class="header__area-menubar-right-sidebar-popup-contact-item">
+									<div class="header__area-menubar-right-sidebar-popup-contact-item-icon">
+										<i class="fal fa-map-marker-alt"></i>
+									</div>
+									<div class="header__area-menubar-right-sidebar-popup-contact-item-content">
+										<span>Alamat Kantor</span>
+										<h6><a href="https://www.google.com/maps">Bali, Denpasar</a></h6>
+									</div>
+								</div>
+							</div>
+							<div class="header__area-menubar-right-sidebar-popup-social">
+								<ul>
+									<li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="https://behance.net" target="_blank"><i class="fab fa-behance"></i></a></li>
+									<li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+								</ul>							
+							</div>
+                        </div>
+                        <div class="sidebar-overlay"></div>
+                        <!-- sidebar Menu Start -->
+                    </div>
+					<div class="responsive-menu"></div>
+                </div>
+            </div>
+        </div>
+    </div>    
+	<!-- Header Area End -->	
+
+	<!-- Banner Area Start -->
+	<div class="banner__one"> 
+		<div class="banner-shape">
+			<div class="shape banner-shape-1"></div>
+			<div class="shape banner-shape-2"></div>
+			<div class="shape banner-shape-3"></div>
+			<div class="shape banner-shape-4"></div>
+			<img class="shape banner-shape-5" src="assets/img/shape/banner-shape.png" alt="image">
+			<div class="shape banner-shape-7"></div>
+			<div class="shape banner-shape-6"></div>
+		</div>
+		<div class="container">
+			<div class="row align-items-center gy-4 justify-content-center">
+				<div class="col-xl-6 col-lg-6">
+					<div class="banner__one-content">
+						<span class="subtitle-one">Perkembangang Digital</span>
+						<h2><span>Inovasi</span> yang Menggerakan Masa Depan</h2>
+                        <p>Tim kami mengeksplorasi kemungkinan baru dan merangkul tren yang muncul untuk memberikan solusi TI yang transformatif</p>
+						<a href="request-quote.html" class="btn-two"><img class="call-img mr-15" src="assets/img/icon/call.svg" alt="call">Temukan Solusi
+							<i class="fas fa-arrow-right"></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-5 offset-xl-1 col-lg-6 col-md-9">
+					<div class="banner__one-image">
+						<div class="banner__one-image-wrapper">
+							<div class="banner__one-image-wrapper-shapes animate-rotate">
+								<div class="shape shape-1"></div>
+								<div class="shape shape-2"></div>
+							</div>
+							<img src="assets/img/banner/banner-right-img.jpg" alt="image">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Banner Area End -->
+
+	<!-- Brand Area Start -->
+	<div class="brand__area pt-115">
+		<div class="container">
+			<div class="row brand__area-border">
+				<div class="col-xl-12">
+					<div class="swiper brand__slider">
+						<div class="swiper-wrapper">
+							<div class="brand__area-item swiper-slide">
+								<img src="assets/img/brand/brand-1.png" alt="image">
+							</div>
+							<div class="brand__area-item swiper-slide">
+								<img src="assets/img/brand/brand-2.png" alt="image">
+							</div>
+							<div class="brand__area-item swiper-slide">
+								<img src="assets/img/brand/brand-3.png" alt="image">
+							</div>
+							<div class="brand__area-item swiper-slide">
+								<img src="assets/img/brand/brand-4.png" alt="image">
+							</div>
+							<div class="brand__area-item swiper-slide">
+								<img src="assets/img/brand/brand-5.png" alt="image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Brand Area End -->	
+
+	<!-- About Area Start -->
+	<div class="about__one section-padding">
+		<div class="container">
+			<div class="row align-items-center flex-wrap-reverse gy-4">
+				<div class="col-xl-6 col-lg-5">
+					<div class="about__one-image">
+						<div class="experience-bar animate-y-axis-slider">
+							<i class="flaticon-consultant"></i>
+							<div class="experience-bar-right">
+								<div class="experience-bar-counter">
+									<h4 class="counter">25</h4>
+									<span>+</span>
+								</div>
+								<span>Tahun Pengalaman</span>
+							</div>
+						</div>
+						<div class="about__one-image-wrapper">
+							<img src="assets/img/about/about-1.png.jpeg" alt="" class="image-1">
+							<img src="assets/img/about/about-2.png.jpeg" alt="" class="image-2">
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-7 col-md-9">
+					<div class="about__one-content">
+						<span class="subtitle-one">Tentang Kami</span>
+						<h2>Misi Perusahaan</h2>
+						<p>Red Company berkomitmen untuk memimpin inovasi dalam industri kami dengan memberikan solusi yang terdepan dan berkualitas tinggi. Kami berusaha untuk menjadi mitra terpercaya bagi klien kami dengan mengutamakan keunggulan, kreativitas, dan dedikasi dalam setiap proyek.</p>
+						<div class="about__one-content-service">
+							<div class="service">
+								<i class="far fa-check-circle"></i>
+								<span>Pengalaman Puluhan Tahun</span>
+							</div>
+							<div class="service">
+								<i class="far fa-check-circle"></i>
+								<span>Teknologi Terkini</span>
+							</div>
+							<div class="service">
+								<i class="far fa-check-circle"></i>
+								<span>Pendekatan Klien-Sentris</span>
+							</div>
+							<div class="service">
+								<i class="far fa-check-circle"></i>
+								<span>Tim Profesional Terlatih</span>
+							</div>
+						</div>
+						<a href="about.html" class="btn-one">Temukan Lebih Banyak
+							<i class="fas fa-arrow-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- About Area End -->
+
+	<!-- Why Choose us Area Start -->
+	<div class="why-choose-us__one section-padding">
+		<div class="container">
+			<div class="row gy-4 align-items-center">
+				<div class="col-xl-6 col-lg-7 col-md-9">
+					<div class="why-choose-us__one-left">
+						<div class="why-choose-us__one-title">
+							<span class="subtitle-one">Kenapa Memilih Kami</span>
+							<h2>Layanan Unggulan</h2>
+						</div>
+						<div class="why-choose-us__one-quality">
+							<div class="why-choose-us__one-quality-single">
+								<div class="icon">
+									<i class="flaticon-machine-repair"></i>
+								</div>
+								<div class="why-choose-us__one-quality-single-content">
+									<h4>Konsultasi Bisnis</h4>
+                                    <p>Layanan konsultasi untuk membantu perusahaan merancang strategi bisnis, meningkatkan efisiensi operasional, dan mencapai tujuan jangka panjang.</p>
+								</div>
+							</div>
+							<div class="why-choose-us__one-quality-single">
+								<div class="icon">
+									<i class="flaticon-web-research"></i>
+								</div>
+								<div class="why-choose-us__one-quality-single-content">
+									<h4>Pengembangan Perangkat Lunak</h4>
+									<p>Pengembangan aplikasi dan perangkat lunak yang inovatif untuk mendukung operasi bisnis dan memenuhi kebutuhan teknologi modern.</p>
+								</div>
+							</div>
+							<div class="why-choose-us__one-quality-single">
+								<div class="icon">
+									<i class="flaticon-web-research"></i>
+								</div>
+								<div class="why-choose-us__one-quality-single-content">
+									<h4>Solusi Digital</h4>
+									<p>layanan digital termasuk desain web, pemasaran digital, dan pengolahan media sosial untuk meningkatkan kehadiran online dan engagement klien</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-5 offset-xl-1 col-lg-6 col-md-10">
+					<div class="why-choose-us__one-image">
+						<div class="why-choose-us__one-image-shape">
+							<div class="shape shape-1 animate-x-axis"></div>
+							<div class="shape shape-2 animate-x-axis"></div>
+							<img src="assets/img/shape/why-choose-shape.png" alt="" class="shape shape-3 animate-y-axis">
+						</div>
+						<img src="assets/img/why-choose-us/why-choose.png.jpeg" alt="image">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Why choose us Area End -->
+
+	<!-- Portfolio Area Start -->
+	<div class="portfolio__one section-padding">
+		<div class="container">
+			<div class="row gy-4 align-items-end justify-content-between mb-5">
+				<div class="col-xl-6 col-lg-7 col-md-9 col-sm-10">
+					<div class="portfolio__one-content-left">
+						<span class="subtitle-one">Project Portfolio</span>
+						<h2>Project atau Portofolio Terbaru</h2>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4">
+					<div class="portfolio__one-content-right text-lg-end">
+						<a href="portfolio-column-two.html" class="btn-one">Semua Portofolio
+							<i class="fas fa-arrow-right"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container custom__container">
+			<div class="portfolio__one-slider swiper py-5">
+				<div class="swiper-wrapper portfolio-items align-items-center">
+					<div class="swiper-slide portfolio__one-single-portfolio single-portfolio">
+						<img src="assets/img/portfolio/portfolio-1.png" alt="image">
+						<div class="portfolio__one-single-portfolio-content">
+							<h4>Real-Time Monitoring</h4>
+							<span>network analysis</span>
+						</div>
+					</div>
+					<div class="swiper-slide portfolio__one-single-portfolio active single-portfolio">
+						<img src="assets/img/portfolio/portfolio-2.png" alt="image">
+						<div class="portfolio__one-single-portfolio-content">
+							<h4>Platform E-Commerce</h4>
+							<span>Rencana Perangkat Lunak</span>
+						</div>
+					</div>
+					<div class="swiper-slide portfolio__one-single-portfolio single-portfolio">
+						<img src="assets/img/portfolio/portfolio-3.png" alt="image">
+						<div class="portfolio__one-single-portfolio-content">
+							<h4>Sistem Manajemen Rantai Pasokan</h4>
+							<span>Integrasi Sistem</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Portfolio Area End -->
+
+	<!-- Testimonial Area Start -->
+	<div class="testimonial__one section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6">
+					<div class="testimonial__one-left" style="background-image: url(assets/img/testimonial/testimonial.png);">
+						<div class="testimonial__one-left-title">
+							<span class="subtitle-one">Testimoni Klien</span>
+							<h2>Solusi WebTech <span class="highlighted">transformasi</span> </h2>
+							<a href="contact.html" class="btn-one">Dapatkan Dukungan
+								<i class="fas fa-arrow-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6">
+					<div class="testimonial__one-right">
+						<div class="swiper testimonial__one-slider-active">
+							<div class="swiper-wrapper">
+								<div class="single-slider swiper-slide">
+									<div class="single-slider-user">
+										<div class="single-slider-user-name">
+											<h4>Jane Doe</h4>
+											<span>CEO XYZ Corp.</span>
+										</div>
+										<div class="single-slider-user-rating">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star not-rated"></i>
+										</div>
+									</div>
+									<p>Red Company memberikan solusi yang tepat waktu dan efektif meningkatkan efisiensi operasional kamu secara signifikan.</p>
+								</div>
+								<div class="single-slider swiper-slide">
+									<div class="single-slider-user">
+										<div class="single-slider-user-name">
+											<h4>John Smith</h4>
+											<span>Direktur PQR Ltd.</span>
+										</div>
+										<div class="single-slider-user-rating">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star not-rated"></i>
+										</div>
+									</div>
+									<p>Tim Red Company sangat profesional dan memahami kebutuhan kami dengan sangat baik.</p>
+								</div>
+							</div>
+						</div>
+						<div class="testimonial__one-right-bottom">
+							<div class="slider-arrow">
+								<i class="swiper-button-prev fas fa-arrow-left"></i>
+        						<i class="swiper-button-next fas fa-arrow-right"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Testimonial Area End -->
+
+	<!-- Blog Area Start -->
+	<div class="blog__one section-padding pt-lg-0">
+		<div class="container">
+			<div class="row justify-content-center text-center">
+				<div class="col-xl-6 col-lg-6">
+					<div class="blog__one-title">
+						<span class="subtitle-one">Blog dan Berita</span>
+						<h2>Berita Teknologi</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center gy-4">
+				<div class="col-xl-4 col-lg-6">
+					<div class="blog__one-single-blog">
+						<div class="blog__one-single-blog-image">
+							<img src="assets/img/blog/blog-1.png.jpeg" alt="image">
+						</div>
+						<div class="blog__one-single-blog-date">
+							<span class="date">29</span>
+							<span class="month">Aug</span>
+						</div>
+						<div class="blog__one-single-blog-content">
+							<div class="blog__one-single-blog-content-top">
+								<span>
+									<i class="far fa-user"></i>
+									Oleh Admin
+								</span>
+								<span>
+									<i class="far fa-comment-dots"></i>
+									Komen (05)
+								</span>
+							</div>
+							<a href="blog-details.html" class="blog-heading">Inovasi Teknologi dalam Tahun 2024</a>
+							<a href="blog-details.html" class="btn-three">Baca Lebih
+								<i class="fas fa-angle-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6">
+					<div class="blog__one-single-blog">
+						<div class="blog__one-single-blog-image">
+							<img src="assets/img/blog/blog-2.png.jpeg" alt="image">
+						</div>
+						<div class="blog__one-single-blog-date">
+							<span class="date">15</span>
+							<span class="month">Aug</span>
+						</div>
+						<div class="blog__one-single-blog-content">
+							<div class="blog__one-single-blog-content-top">
+								<span>
+									<i class="far fa-user"></i>
+									oleh Admin
+								</span>
+								<span>
+									<i class="far fa-comment-dots"></i>
+									Komen (05)
+								</span>
+							</div>
+							<a href="blog-details.html" class="blog-heading">Cara Meningkatkan Efisiensi Bisnis Anda dengan Solusi Digital</a>
+							<a href="blog-details.html" class="btn-three">Baca Lebih
+								<i class="fas fa-angle-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-6">
+					<div class="blog__one-single-blog">
+						<div class="blog__one-single-blog-image">
+							<img src="assets/img/blog/blog-3.png.jpeg" alt="image">
+						</div>
+						<div class="blog__one-single-blog-date">
+							<span class="date">05</span>
+							<span class="month">Aug</span>
+						</div>
+						<div class="blog__one-single-blog-content">
+							<div class="blog__one-single-blog-content-top">
+								<span>
+									<i class="far fa-user"></i>
+									oleh Admin
+								</span>
+								<span>
+									<i class="far fa-comment-dots"></i>
+									Komen (05)
+								</span>
+							</div>
+							<a href="blog-details.html" class="blog-heading">Kesuksesan Proyek Terbaru Kami: Redesign Platform E-Commerce</a>
+							<a href="blog-details.html" class="btn-three">Baca Lebih
+								<i class="fas fa-angle-right"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Blog Area End -->
+
+	<!-- Subscribe Area End -->
+	<div class="subscribe__one">
+		<div class="container">
+			<div class="row justify-content-center text-center subscribe__one-content" style="background-image: url(assets/img/subscribe/subscribe-one-shape-1.png);">
+				<div class="col-xl-7 col-lg-8">
+					<div class="subscribe__one-title">
+						<h3>Berlangganan Buletin Kami</h3>
+					</div>
+					<form action="#" class="subscribe__one-form">
+						<input type="email" placeholder="Masukan Email Anda">
+						<button class="btn-two" type="submit">Berlangganan Sekarang</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Subscribe Area End -->
+
+	<!-- Footer Two Area Start -->
+	<div class="footer__two">
+		<img class="footer__two-shape" src="assets/img/shape/footer-two-bg.png" alt="image">
+		<div class="container">
+			<div class="row gy-4 justify-content-between">
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+					<div class="footer__two-widget">
+						<div class="footer__two-widget-about">
+							<a href="#"><img src="assets/img/logo-2.png" alt="image"></a>
+							<p>Perencana keuangan membantu orang untuk mendapatkan pengetahuan tentang teknologi</p>
+							<div class="footer__two-widget-about-location">
+								<div class="footer__two-widget-about-location-item">
+									<div class="footer__two-widget-about-location-item-icon">
+										<i class="flaticon-telephone-call"></i>
+									</div>
+									<div class="footer__two-widget-about-location-item-info">
+										<span>Nomor Kami</span>
+										<a href="tel:(+62)831-1958-7745">62+ 831-1958-7745</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+					<div class="footer__two-widget ml-85">
+						<h4>Link Cepat</h4>
+						<div class="footer__two-widget-solution">
+							<ul>
+								<li><a href="service.html"><i class="far fa-chevron-double-right"></i>Layanan</a></li>
+								<li><a href="testimonial.html"><i class="far fa-chevron-double-right"></i>Testimonial</a></li>
+								<li><a href="about.html"><i class="far fa-chevron-double-right"></i>Tentang Kami</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+					<div class="footer__two-widget">
+						<h4>Layanan Kami</h4>
+						<div class="footer__two-widget-solution">
+							<ul>
+								<li><a href="service-details.html"><i class="far fa-chevron-double-right"></i>Solusi Hosting</a></li>
+								<li><a href="service-details.html"><i class="far fa-chevron-double-right"></i>Keamanan Siber</a></li>
+								<li><a href="service-details.html"><i class="far fa-chevron-double-right"></i>Analisis Jaringan</a></li>
+								<li><a href="service-details.html"><i class="far fa-chevron-double-right"></i>Data Recovery</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+					<div class="footer__two-widget">
+						<h4>Ikuti Kami</h4>
+						<div class="footer__two-widget-subscribe">
+							<p>berita dan artikel terbaru dari kami akan dikirim ke Inbox anda per-minggu.</p>
+							 <div class="footer__two-widget-social">	
+								<ul>
+									<li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+									<li><a href="https://www.pinterest.com"><i class="fab fa-pinterest-p"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Two Area End -->
+	
+	<!-- Scroll Btn Start -->
+	<div class="scroll-up">
+		<svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" /> </svg>
+	</div>
+	<!-- Scroll Btn End -->
+	<!-- Main JS -->
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Counter Up JS -->
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<!-- Popper JS -->
+	<script src="assets/js/popper.min.js"></script>
+	<!-- Progressbar JS -->
+	<script src="assets/js/progressbar.min.js"></script>
+	<!-- Magnific Popup JS -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- Swiper Bundle JS -->
+	<script src="assets/js/swiper-bundle.min.js"></script>
+	<!-- Slick JS -->
+	<script src="assets/js/slick.min.js"></script>
+    <!-- Isotope JS -->
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<!-- Waypoints JS -->
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+	<!-- Mean Menu JS -->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<!-- Custom JS -->
+	<script src="assets/js/custom.js"></script>
+</body>
+</html>
