@@ -5,12 +5,9 @@
 	<!-- Start Meta -->
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Bantec - IT Service & Technology HTML5 Template">
-	<meta name="keywords" content="Creative, Digital, multipage, landing, freelancer template">
-	<meta name="author" content="ThemeOri">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Title of Site -->
-	<title>Red Company - IT Service & Technology</title>
+	<title>Service Details</title>
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="assets/img/favicon-1.png">
 	<!-- Bootstrap CSS -->
@@ -66,28 +63,28 @@
             <div class="header__area-menubar">
                 <div class="header__area-menubar-left">
                     <div class="header__area-menubar-left-logo">
-                        <a href="index.html"><img class="dark-n" src="assets/img/logo-1.png" alt="image"></a>
+                        <a href="index.php"><img class="dark-n" src="assets/img/logo-1.png" alt="image"></a>
                     </div>
                 </div>
 				<div class="header__area-menubar-center">
                     <div class="header__area-menubar-center-menu menu-responsive">						
                         <ul id="mobilemenu">
                             <li class="">
-								<a href="index.html">Beranda<i class=""></i></a>
+								<a href="index.php">Beranda<i class=""></i></a>
                             </li>                            
 							<li class="menu-item-has-children"><a href="#">Halaman <i class="fas fa-angle-down"></i></a>
                                 <ul class="sub-menu">
-									<li><a href="about.html">Tentang Kami</a></li>
-                                    <li><a href="testimonial.html">Testimonial</a></li>									
-                                    <li><a href="pricing-plan.html">Paket Pembayaran</a></li>								
-                                    <li><a href="faq.html">Faq</a></li>								
+									<li><a href="about.php">Tentang Kami</a></li>
+                                    <li><a href="testimonial.php">Testimonial</a></li>									
+                                    <li><a href="pricing-plan.php">Paket Pembayaran</a></li>								
+                                    <li><a href="faq.php">Faq</a></li>								
                                     <li class=""><a href="#">Tim<i class=""></i></a> </li>
                                 </ul>
                             </li>
-							<li class=""><a href="service.html">Layanan <i class=""></i></a> </li>
-                            <li class=""><a href="portfolio-column-two.html">Portfolio <i class=""></i></a> </li>
-							<li class=""><a href="blog-grid-three.html">Blog <i class=""></i></a> </li>
-                            <li class=""><a href="contact.html">Kontak<i class=""></i></a> </li>
+							<li class=""><a href="service.php">Layanan <i class=""></i></a> </li>
+                            <li class=""><a href="portfolio-column-two.php">Portfolio <i class=""></i></a> </li>
+							<li class=""><a href="blog-grid-three.php">Blog <i class=""></i></a> </li>
+                            <li class=""><a href="contact.php">Kontak<i class=""></i></a> </li>
                         </ul>
                     </div>
 				</div>
@@ -113,13 +110,13 @@
 							</div>
                         </div>
 						<div class="header__area-menubar-right-box-btn">
-							<a class="btn-one" href="request-quote.html">Get Quote<i class="fas fa-arrow-right"></i></a>
+							<a class="btn-one" href="request-quote.php">Get Quote<i class="fas fa-arrow-right"></i></a>
 						</div>
                         <!-- sidebar Menu Start -->
                         <div class="header__area-menubar-right-sidebar-popup">
                             <div class="sidebar-close-btn"><i class="fal fa-times"></i></div>
                             <div class="header__area-menubar-right-sidebar-popup-logo">
-                                <a href="index.html"> <img src="assets/img/logo-2.png" alt="image"> </a>
+                                <a href="index.php"> <img src="assets/img/logo-2.png" alt="image"> </a>
                             </div>
                             <p>Perusahaan dalam bidang teknologi. Penyedia layanan yang terjangkau.</p>
 							<div class="header__area-menubar-right-sidebar-popup-contact">
@@ -181,7 +178,7 @@
 				<div class="col-xl-6 col-lg-7">
 					<div class="page__banner-content">
 						<h2>Layanan Kami</h2>
-						<span><a href="index.html">Home</a>
+						<span><a href="index.php">Home</a>
 						<span>|</span>
 						Layanan
 						<span>|</span>
@@ -291,10 +288,10 @@
 						<h4>Quick Link</h4>
 						<div class="footer__two-widget-solution">
 							<ul>
-<li><a href="service.html"><i class="far fa-chevron-double-right"></i>Service</a></li>
-								<li><a href="faq.html"><i class="far fa-chevron-double-right"></i>FAQ</a></li>
-								<li><a href="testimonial.html"><i class="far fa-chevron-double-right"></i>Testimonial</a></li>
-								<li><a href="about.html"><i class="far fa-chevron-double-right"></i>About Us</a></li>
+<li><a href="service.php"><i class="far fa-chevron-double-right"></i>Service</a></li>
+								<li><a href="faq.php"><i class="far fa-chevron-double-right"></i>FAQ</a></li>
+								<li><a href="testimonial.php"><i class="far fa-chevron-double-right"></i>Testimonial</a></li>
+								<li><a href="about.php"><i class="far fa-chevron-double-right"></i>About Us</a></li>
 							</ul>
 						</div>
 					</div>
@@ -304,10 +301,10 @@
 						<h4>Our Services</h4>
 						<div class="footer__two-widget-solution">
 							<ul>
-								<li><a href="https://html.themeori.net/bantec/services-right-sidebar.html"><i class="far fa-chevron-double-right"></i>Hosting Solution</a></li>
-								<li><a href="https://html.themeori.net/bantec/services-right-sidebar.html"><i class="far fa-chevron-double-right"></i>Cyber Security</a></li>
-								<li><a href="https://html.themeori.net/bantec/services-right-sidebar.html"><i class="far fa-chevron-double-right"></i>Network Analysis</a></li>
-								<li><a href="https://html.themeori.net/bantec/services-right-sidebar.html"><i class="far fa-chevron-double-right"></i>Data Recovery</a></li>
+								<li><a href="https://php.themeori.net/bantec/services-right-sidebar.php"><i class="far fa-chevron-double-right"></i>Hosting Solution</a></li>
+								<li><a href="https://php.themeori.net/bantec/services-right-sidebar.php"><i class="far fa-chevron-double-right"></i>Cyber Security</a></li>
+								<li><a href="https://php.themeori.net/bantec/services-right-sidebar.php"><i class="far fa-chevron-double-right"></i>Network Analysis</a></li>
+								<li><a href="https://php.themeori.net/bantec/services-right-sidebar.php"><i class="far fa-chevron-double-right"></i>Data Recovery</a></li>
 							</ul>
 						</div>
 					</div>
@@ -340,8 +337,8 @@
 					</div>
 					<div class="col-xl-5 col-lg-6">
 						<div class="copyright__one-right">
-							<a href="about.html">Privacy Policy</a>
-							<a href="contact.html">Contact Us</a>
+							<a href="about.php">Privacy Policy</a>
+							<a href="contact.php">Contact Us</a>
 						</div>
 					</div>
 				</div>
